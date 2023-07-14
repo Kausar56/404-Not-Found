@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    height:100vh;
+    background-color: #0001;
+    margin: 0 auto;
+    
+
+}
+
+img.img-src{
+    width:100%;
+    margin: auto;
+}
+
+h1.title{
+   font-size: 4rem;
+   font-family: space mono;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: -2.28px;
+   color: #333;
+
+
+
+}
+
+p.description{
+    color: #4f4f4f;
+    font-family: space mono;
+    font-weight: 400;
+    letter-spacing: -0.84px;
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+   
+}
+
+
+.btn-primary{
+    padding: 24px 43px;
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+    font-family: space mono;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: normal;
+    
+    letter-spacing: 1px;
+
+
+}
+
+
+.logo{
+    margin-left: px ;
+
+}
+
+.content{
+    width: 100%;
+}
+
+
+
+
+/* Responsive for mobile  */
+
+@media screen and (max-width:576px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 100vh;
+      
+    }
+
+    img.img-src{
+        
+    }
+
+    .content{
+        
+    }
+
+    h1.title{
+        font-size: 2rem;
+        font-family: space mono;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -1.68px;
+        color: #333;
+     
+     
+     
+     }
+
+     p.description{
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.63px
+     }
+
+     h1.title,p.description,.btn-primary{
+        margin-left: 1rem;
+        padding-bottom: 2rem;
+     }
+
+     .btn-primary{
+        margin-bottom: 2rem;
+     }
+}
+
+
+/* Responsive for tablet  */
+
+
+@media screen and (min-width:576px) and (max-width:875px) {
+    
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height: 100vh;
+      
+    }
+
+    h1.title{
+        font-size: 2rem;
+        font-family: space mono;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -2.28px;
+        color: #333;
+     
+     
+     
+     }
+
+}
+
